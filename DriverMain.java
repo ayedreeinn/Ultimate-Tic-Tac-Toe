@@ -19,13 +19,13 @@ public class DriverMain {
                 
         // Get user's choice of game type
         System.out.println("Do you want to play against the computer or a friend?");
-        System.out.println("Type 1 to take on the computer and type 2 to play against a human player. (Hint: Type 3 and watch the computer go berserk!): ");
+        System.out.println("Type 1 to take on the computer and type 2 to play against a human player. Type 3 to watch two computers play against each other. ");
         int num = input.nextInt();
 
         // Input validation
         while (num != 1 && num != 2 && num != 3){
             System.out.println("Woops! You've entered an invalid input! Try again.");
-            System.out.println("Type 1 to take on the computer and type 2 to play against a human player. (Hint: Type 3 and watch the computer go berserk!): ");
+            System.out.println("Type 1 to take on the computer and type 2 to play against a human player. Type 3 to watch two computers play against each other. ");
             num = input.nextInt();
         }
         
