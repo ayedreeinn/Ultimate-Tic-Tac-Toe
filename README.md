@@ -1,2 +1,2 @@
 # Ultimate-Tic-Tac-Toe
-Completed as the final project of my CS 2336 course in November 2021
+Completed as the final project of my Java course in November 2021
